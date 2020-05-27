@@ -13,6 +13,11 @@
       v-on:deleteUserEvent="handleDeteleUser"
     />
     <demo-ref/>
+    <!-- <demo-slot>
+      <div class="app-slot">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti a totam doloremque veniam error autem necessitatibus itaque corporis esse? Fuga cupiditate sed neque provident excepturi ipsum qui tempora natus nostrum.</p>
+      </div>
+    </demo-slot> -->
     <demo-slot/>
     <comp-footer v-bind:title="title" />
   </div>
